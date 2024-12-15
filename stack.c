@@ -1,4 +1,3 @@
-printf("Hello, Stack! \n");
 #include <stdio.h>
 #include <stdlib.h>
 #include "stack.h"
@@ -10,6 +9,7 @@ Stack * create_stack(int initial_size)
 	s->contents = (int *)malloc(initial_size*sizeof(Item));
 	s->top=0;
 	s->size=initial_size;
+	printf("Hello, Stack! \n");
 	return s;
 }
 
