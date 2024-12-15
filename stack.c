@@ -1,3 +1,4 @@
+printf("Hello, Stack! \n");
 #include <stdio.h>
 #include <stdlib.h>
 #include "stack.h"
